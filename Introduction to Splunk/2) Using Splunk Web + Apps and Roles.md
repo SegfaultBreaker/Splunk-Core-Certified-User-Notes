@@ -71,6 +71,26 @@ Users with the appropriate capabilities (usually administrators) can:
 
 ---
 
+### Basic Tour of the Splunk search and Dashboards
+
+![image](https://github.com/user-attachments/assets/331ea94d-6440-4f5c-91ac-3ab3882dae86)
+
+1) It's for switching throught your all apps (others than search and dashboard) that you can find on the left part from the Splunk home
+2) It's for editing your account
+3) To see system level messaging
+4) Manage and edit your Splunk configuration
+5) Monitoring the progress of your searches (inside jobs)
+6) Find help
+7) Search bar for using searches
+8) The Search history : can be used for seeing all your previous searches
+9) Time range picker : used for retrieving events from a specific time period
+10) Data Summary : displays a breakdown of the data indexed by hosts, sources and sourcetypes
+    ![{DFA0E474-B5CA-4B13-B5AC-1E92BCB7DACE}](https://github.com/user-attachments/assets/4a6d2a7a-53e7-4222-b082-e0eb24f45abd)
+
+   - Sourcetype : classification of the data
+   - Sources : the file or the directory path, network port or script from which the event originated
+   - Host : hostname or ip address or the FQDN, of the machine from which the event originated
+
 ## Summary
 
 - **Apps** provide a tailored experience for specific data types or tasks.
