@@ -1,57 +1,15 @@
-![{4FA55ADE-7FEE-42CD-8173-6E6B2E8C2E2A}](https://github.com/user-attachments/assets/9104b68e-8150-4da6-abb8-17a09682d72c)
-
--> Power, Admin
-
-![{ACE7A57C-437F-4A29-ACCB-F2DCF19237B9}](https://github.com/user-attachments/assets/ed07a6b5-ed9d-416c-8b45-958003a12ba9)
-
--> Index
-
-![{E8C5E8E5-E6ED-499B-9BFE-97934DBC4C48}](https://github.com/user-attachments/assets/766dfe29-5aad-4dff-b33c-d352289f3ebd)
-
--> time
-
-![{414B186D-26F5-4684-AFF0-F6B402CE1FAF}](https://github.com/user-attachments/assets/9399b587-6fd5-47b3-bb14-475b2fbef208)
-
--> Reverse chronological 
-
-![{07A60F82-A8B8-4655-9809-FE0E6B3E5AB0}](https://github.com/user-attachments/assets/db5d5d94-e75f-4a79-9096-bd0684cec313)
-
--> Fail*
-
-![{302707CB-92DF-4F62-9A6C-9DDA6A56956B}](https://github.com/user-attachments/assets/39463365-e540-48b2-954f-cafa422ea373)
-
--> search
-
-![{C41F707D-633F-4100-9C31-FE3260D295A9}](https://github.com/user-attachments/assets/08e465dd-90bd-4e3c-b016-afbd0d89eea7)
-
--> The time zone defined in user settings
-
-![{2A578C9A-75EF-4E8E-BF71-25A05A8A021D}](https://github.com/user-attachments/assets/926256b5-8ce6-4277-a632-232cd7e29b4d)
-
--> OR / AND / NOT
-
-![{41F37035-48E5-4879-BEA1-EB640EF2F82B}](https://github.com/user-attachments/assets/a8196a18-4e2b-4459-93a2-1e0af5bebad3)
-
--> A pipe
-
-![{35D1501B-5436-47A9-B895-A760D6229C42}](https://github.com/user-attachments/assets/e923dcf8-af70-4fe5-8150-b59b58d15975)
-
--> by default 10 minutes
-
-![{31E1BDCF-6481-4123-A4FC-BDEE8B4485DA}](https://github.com/user-attachments/assets/1708e95b-87ce-46a1-9fe3-e7b0f6d3b53e)
-
--> Smart
-
-![{CB6E7310-A584-4683-B379-338505D11942}](https://github.com/user-attachments/assets/1ea712ae-1328-4b64-90a3-1d5cfe306d6b)
-
--> The user who create it
-
-![{381A43D9-1331-461B-94DD-71C1DCE7BC54}](https://github.com/user-attachments/assets/f6fe8100-12ca-472f-ac4c-b755983d3714)
-
--> Power / Admin / User
-
-![{9EF568B9-4719-4D2C-9327-1888AE429058}](https://github.com/user-attachments/assets/5ee295f4-9bd4-4c15-b087-84eb4d3f7820)
-
--> 1
-
-
+![image](https://github.com/user-attachments/assets/8e85fdd5-6f54-47e0-99bd-ff14397b9109)
+![{C9BAEC66-5969-418C-B13A-E3A787ABEF8E}](https://github.com/user-attachments/assets/39e23f82-f940-4ed9-a57e-4295422db994)
+![{6692F992-2574-48FD-951A-ABA68AC476B6}](https://github.com/user-attachments/assets/4da0356d-6a8b-48da-b39b-8d4b2cf64ad0)
+![{76D31180-D951-4DE6-9DEA-B44302491AC2}](https://github.com/user-attachments/assets/0df14412-e5e0-4657-a673-787bf790c38b)
+![{E9F85F77-F150-4107-82AF-F5BD7E29A865}](https://github.com/user-attachments/assets/f9534cc3-bd52-4cdc-ba99-f2c798789cf5)
+![{C683A10E-5229-4983-81AD-5E81AF0F60C5}](https://github.com/user-attachments/assets/118280ee-d4b5-4f69-8327-c9e2dd738f30)
+![{C095E235-7126-4B1F-903B-71455F14B7F5}](https://github.com/user-attachments/assets/507966ef-bad3-48b1-b05f-71ef88812e2f)
+![{16783864-5626-4670-9BD8-3FDC8A12FDA5}](https://github.com/user-attachments/assets/2a416bf5-5dd9-4e2e-b192-c9236aa1156d)
+![{8976AFF6-312E-4AFA-8D09-3739D819986A}](https://github.com/user-attachments/assets/c5f6d157-2187-4781-be52-d9c2ef55379b)
+![{C9C2C018-A67E-4AD8-AD84-DC07A24E2C03}](https://github.com/user-attachments/assets/eb105371-7301-4811-a924-8171329561da)
+![{310795F5-33B8-426C-9C35-A2B08DF2184D}](https://github.com/user-attachments/assets/9738af44-04ff-46b9-901e-a7267269421c)
+![{E7E330B6-3E54-4BFB-9047-08E903BDB9D2}](https://github.com/user-attachments/assets/fc7fa315-4405-411b-a5b0-1f0c0525a613)
+![{9CFFCFEB-4C62-46DD-9F7C-DB6F940017F4}](https://github.com/user-attachments/assets/3c39851d-5e36-4347-863b-e84e0d34f343)
+![{B6154C7E-ED32-40FA-9329-8EB65DFC6526}](https://github.com/user-attachments/assets/53f02f6a-7df7-4d24-ba9f-edd599d5c9f1)
+![{B3E458AD-3E19-45B8-8A29-0082DF3A57A3}](https://github.com/user-attachments/assets/6dcf65cf-3ce2-47fc-9150-739b4e45a7eb)
