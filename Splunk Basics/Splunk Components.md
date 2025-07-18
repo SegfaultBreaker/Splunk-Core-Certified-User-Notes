@@ -87,3 +87,9 @@ When you dive into index, you'll find repositories with initial files which cont
 Two types of buckets that are in the home path: 
 - Hot Bucket
 - Warm bucket
+
+#### Hot Buckets #### 
+Hot buckets are buckets in which you write actively the data when the indexation step, the indexation data are written inside the hot buckets. These buckets have some time and size constraints
+
+
+
