@@ -89,7 +89,79 @@ Two types of buckets that are in the home path:
 - Warm bucket
 
 #### Hot Buckets #### 
+Home path (need explanation)
+
 Hot buckets are buckets in which you write actively the data when the indexation step, the indexation data are written inside the hot buckets. These buckets have some time and size constraints
+You can say that when these datas hit these size or when the bucket hit this size or when he doesn't hit this size in a certain time, then move that bucket to a warm bucket.
+
+In this case it's call roll over, you roll over a hot bucket to a warm bucket
+
+#### Cold Path ####
+
+cold bucket (need explanation)
 
 
+#### Important note ####
+When you are indexing data into splunk you can only write datas into a hot bucket but when you are searching, you can do search into Hot / Warm and cold bucket
 
+How many time can you save data into cold bucket -> unlimited, cold bucket does not have size constraints (of course it depends how many storage space do you have or if internal company policies retains the data ).
+
+Imagine that you impose a data limitation of six months, if you reach this limit of time your datas are called "Frozen Data", two types of scenario exists :
+- Delete all the data
+- Archive the data (save the data into an external storage).
+
+In the future, if you need these data again, you'll archive these data into a third path called the 'Thawed Path', when the datas are inside this path, you can do search on it.
+
+### What if your indexer is broken ###
+In the context of your company needs data availability, you'll need to setup an indexer cluster. 
+
+Indexer Cluster : 
+- Group indexers together to provide data replication
+- Cluster Manager coordinates replication activities and manages the cluster.
+
+For exemple indexer 1 will replicate his data to the indexer 2 and indexer 3
+
+---------------------------------------------------------------
+
+Questions : 
+Which Splunk component transforms raw data into events and distributes the results to an index ? 
+-> Indexer
+
+Which component of Splunk is primarily responsible for saving data ? 
+-> Indexer
+
+
+## Splunk Components - Search Head ##
+
+Now that data are available on the disk, how can we search them ?
+
+For searching the data we need a search head. Search head is a component in which user will connect to do searches data indexed into splunk
+
+Search Head : 
+- Search management and presentation for results retrieved from indexers.
+- Distributes search requests to the indexers and merges results back to the user.
+
+### What if the search head is broken ? ###
+
+Same process as the indexer, you can create a search head cluster
+
+Search Head Cluster :
+- /!\ Group search heads with identical configuration.
+- Search requests from users are balanced across SH group (for exemple is important to use a load balancer to divide the search work with for ex 5 search heads).
+- Managed by Cluster Captain : When you create a search head cluster one of the search head will act as a Cluster Captain
+  - Coordinates job scheduling among SH members
+  - Coordinates replication activities (data are replicatied across the search heads to make sure that all of them get a identical configuration).
+- Search head deployer :
+  - It's a management component, the role is to distributes apps and other configurations to Cluster members. Imagine that you have a new application to install on all the search head, you can deploy this app to each search head using the Search Head Deployer.
+
+Difference between Cluster Captain and a Cluster Manager : 
+The Cluster manager is a seperate splunk component but the Cluster Captain is not. Cluster Captain is just one of the search head that play the role of the captain and coordinates job scheduling among SH members.
+
+---------------------------------------------------------------------
+
+Questions : 
+Which component of Splunk let us write SPL queries to find the required data ? 
+-> Search Head
+
+## Deployment Server ## 
+Imagine that you deployed Splunk, imagine that your needs begin to grow and your deployment grow, multiple Search head clusters, multiple Indexer Cluster and so on... If you need to manage every servers every search heads it will be a big loss of data. So then you'll need a Deployment Server ! 
