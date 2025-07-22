@@ -165,3 +165,15 @@ Which component of Splunk let us write SPL queries to find the required data ?
 
 ## Deployment Server ## 
 Imagine that you deployed Splunk, imagine that your needs begin to grow and your deployment grow, multiple Search head clusters, multiple Indexer Cluster and so on... If you need to manage every servers every search heads it will be a big loss of data. So then you'll need a Deployment Server ! 
+
+The rôle of the Deployment server is to distribute the contents, configurations, apps to other groups of Splunk Instances (Deployment clients)
+
+The clients can be indexers that are not in part of a cluster, it's not necessary to clusterise to apply configuration on an index, search head or other
+
+Distributed content is known colletively as deployment apps
+Each time that you see deployment application mentionned, it's related to a group of contents that you want to deploy on your instances
+
+Mostly used to distribute apps to Splunk Forwarders
+
+Think about : How many host you'll gona have compared of the number of instances that you have in Splunk himself like indexers or search heads.
+-> you'll have thousand of host and this number will continue to grow, you won't be able to update every Simple forwarders installed on your hosts, that's why we use deployment servers to do these updates with the deployment apps
