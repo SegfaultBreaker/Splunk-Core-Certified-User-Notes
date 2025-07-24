@@ -177,3 +177,37 @@ Mostly used to distribute apps to Splunk Forwarders
 
 Think about : How many host you'll gona have compared of the number of instances that you have in Splunk himself like indexers or search heads.
 -> you'll have thousand of host and this number will continue to grow, you won't be able to update every Simple forwarders installed on your hosts, that's why we use deployment servers to do these updates with the deployment apps
+
+Forwarder Management / Deployment Management : 
+- Deployment server is just a GUI accessible via Splunk web
+- Provides a way to configure deployment server and monitor updates
+
+--------------------------------------------------------------------------
+
+## Splunk Licensing ##
+- Volume based : Volume based license allows you to indexing a certain amount of data each days.
+- Infrastructure based : Resource with virtual usage like Virtual CPU (vCPU) usage across your deployment
+- Access to Splunk features : If for exemple your license cannot provide you access to deployment server, you can purchase this option
+
+How to calculate the amount of data that you are using each days for fit with your volume based licence ?
+-> with the licence manager, you need to take all your instances and redirect them to the licence manager
+
+Licence manager :
+- Hosts licenses and assigns license volume to other splunk components (these components are connected with the licence manager called as "License Peers")
+  - For EX : Search heads are connected to the license manager, why ? Because you cannot use certain fonctions on the search head if you don't have the license for them
+- Creates license pools from licenses added together (stacks) and assigns peers to these license pools
+
+------------------------------------------------------------------------------
+
+## Splunk Components - Monitoring Console ##
+
+What we'll you do if you have problems with splunk himself such as won't able to create dashboards, doing search etc. How to know why ? 
+
+-> With the monitoring console, you are taking internal Splunk logs (internal logs have a _ under the name)
+
+<img width="500" height="424" alt="image" src="https://github.com/user-attachments/assets/fe66e2a3-8a2c-428a-ac54-748d540993e1" />
+
+Monitoring console : 
+- Used to view topology and performance information about your deployment
+  - If something fails you'll able to find it because you'll use internal logs and get an overview of the situation.
+- Monitoring dashboards use data from Splunk internal logs
