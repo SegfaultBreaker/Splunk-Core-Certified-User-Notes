@@ -178,6 +178,8 @@ Built-in tool for monitoring your Splunk environment.
 
 > Includes dashboards for forwarders, indexing, licensing, and more.
 
+<img width="500" height="424" alt="image" src="https://github.com/user-attachments/assets/fe66e2a3-8a2c-428a-ac54-748d540993e1" />
+
 ---
 
 
