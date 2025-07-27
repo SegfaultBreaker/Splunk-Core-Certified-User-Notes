@@ -44,3 +44,15 @@ If you want to manage apps, you'll need to go on the Manage App button (1), it w
 
 Question : A Collection of items containing things such as data inputs, UI elements, and knwoledge objects is know as 
 -> An App
+
+## How to find apps for Splunk 
+
+1) You can directly find application with the manage app + browse more apps
+2) You can download them directly from Splunk Base Website.
+
+### Default Apps in Splunk ###
+- Home Page (it's a default application)
+- Search & reporting
+
+Question : Which is a default app for Splunk Enterprise ? 
+-> Search & reporting
