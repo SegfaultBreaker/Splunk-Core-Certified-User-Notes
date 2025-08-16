@@ -25,3 +25,10 @@ Additionally, Splunk Cloud introduces some cloud-specific roles:
 - `can_delete`: Can delete indexed data
 - `token_auth`: Manages authentication tokens
 - `apps`: Manages installed cloud apps
+
+
+Exam tips : 
+
+Q : How many main roles do you have in Splunk ? 
+
+A : 3
