@@ -36,7 +36,9 @@ It's the default app that provides an interface to search, analyze and visualize
 Exam Tips : 
 
 Q : Data summary button just below the search bar gives you which of the following (choose three)
+
 A : Hosts, Sourcetypes, Sources
 
 Q : What is a quick, comprehensive way to learn what data is present in Splunk Deployment ? 
+
 A : Click Data Summary in Splunk Web
