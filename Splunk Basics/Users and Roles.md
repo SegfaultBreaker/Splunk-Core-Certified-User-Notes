@@ -1,16 +1,27 @@
 Splunk enterprise comes with out of the box roles that control what you can do:
 
-- User Role:
-  - Limited access to settings.
-  - Create private object knowledge (cannot share)
-  - Assign this role to basic users
- 
-- Power Role:
-  - Limited access to Settings.
-  - Create and publish (share) knowledge objects.
-  - Assign to power user (more advanced that basic user utilisation).
+### Default Predefined Roles in Splunk Enterprise
 
-- Admin Role:
-  - Access to all settings.
-  - Has the most of capabilities.
-  - Assign this role to Splunk Admins.
+| Role          | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| **Administrator** | Full access. Can install apps, configure settings, ingest data, and create knowledge objects for all users. |
+| **Power**         | Can create and share knowledge objects with other users of an app, and perform real-time searches. |
+| **User**          | Limited access. Can view their own knowledge objects and those shared with them. |
+
+---
+
+### Roles in Splunk Cloud
+
+Splunk Cloud provides similar roles with slight naming differences:
+
+| Splunk Enterprise | Splunk Cloud |
+|-------------------|--------------|
+| Administrator     | `sc_admin`   |
+| Power             | `Power`      |
+| User              | `User`       |
+
+Additionally, Splunk Cloud introduces some cloud-specific roles:
+
+- `can_delete`: Can delete indexed data
+- `token_auth`: Manages authentication tokens
+- `apps`: Manages installed cloud apps
