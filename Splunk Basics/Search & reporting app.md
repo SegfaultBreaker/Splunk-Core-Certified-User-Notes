@@ -5,10 +5,12 @@ It's the default app that provides an interface to search, analyze and visualize
 
 - App Navigation Bar
 <img width="1014" height="150" alt="image" src="https://github.com/user-attachments/assets/db9aae48-bc83-440a-b07d-28c65b0da0f5" />
+
  - Shows views in the current application.
 
 - Time Range Picker
 <img width="280" height="177" alt="image" src="https://github.com/user-attachments/assets/63d61fc7-f258-48c4-9339-efdc3a0ab28a" />
+
   - Specify the time period to search.
   - Default Value is 24h.
 
@@ -32,6 +34,7 @@ It's the default app that provides an interface to search, analyze and visualize
     - Sourcetypes
 
 Exam Tips : 
+
 Q : Data summary button just below the search bar gives you which of the following (choose three)
 A : Hosts, Sourcetypes, Sources
 
